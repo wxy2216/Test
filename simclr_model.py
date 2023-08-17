@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torchvision.models.resnet import resnet50
 
-
+# new
 class Model(nn.Module):
     def __init__(self, feature_dim=128, batch_size=256):
         super(Model, self).__init__()
